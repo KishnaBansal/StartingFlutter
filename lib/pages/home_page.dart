@@ -9,13 +9,13 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+    appBar: AppBar(
         title: const Text("Catalog App"),
       ),
-      body: Center(
+    body: Center(
         child: Text("$days and $name"),
       ),
-      drawer: const Drawer(),
+    drawer: const Drawer(),
     );
   }
 }
